@@ -44,7 +44,7 @@ full_lab () {
   config["MEM"]=$[16*1024]
   config["REG"]=yes
   config["ADDONS"]="registry-console cfme"
-  config["STACKS"]="--metrics --service-catlog"
+  config["STACKS"]="--metrics --service-catalog"
 }
 
 pre_start_func () {
